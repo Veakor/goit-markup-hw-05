@@ -239,8 +239,7 @@ gap:24px;
  }
 .benefits-list-item{
 width:calc((100% - 72px) /4);
-gap: 24px;
-margin-right: 0;
+
 }
 .benefits-list-title{
     margin-bottom: 8px;

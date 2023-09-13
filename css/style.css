@@ -562,9 +562,21 @@ margin-bottom: 16px;
       padding: 24px;
       border-radius: 4px;
       background-color: #FCFCFC;
-      ;
+      }
 
-
-    }
+      .close-btn{
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 24px;
+        right: 24px;
+        line-height: 0;
+        border: none;
+        background: linear-gradient(0deg, #E7E9FC, #E7E9FC),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+        padding: 0;
+        border: 1px solid #0000001A;
+        border-radius: 50%;
+      }
 
     /*=========MODAL WINDOW========*/

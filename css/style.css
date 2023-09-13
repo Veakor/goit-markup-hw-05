@@ -591,3 +591,103 @@ margin-bottom: 16px;
       }
 
     /*=========MODAL WINDOW========*/
+    
+    /*=========MODAL FORM==========*/
+      .review-form-discription{
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1,5;
+      letter-spacing: 0.02em;
+      text-align: center;
+      color: #2E2F42;
+      margin-bottom: 16px;
+      padding-top: 72px;
+    }
+
+    .review-form-field-label{
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #8E8F99;
+    margin-bottom: 4px;
+    }
+    .review-form-input-wrapper{
+        position: relative;
+    }
+
+    .review-form-input{
+       width: 100%; 
+       height: 40px;
+       margin-bottom: 8px;
+       border-radius: 4px;
+       border: 1px solid #2E2F4266;
+       padding-left: 38px;
+       transition: border-color 250ms ease-out ;
+    }
+
+    .review-form-input:focus{
+     border-color: #4D5AE5;
+     outline: transparent;
+     }
+
+     .review-form-input:focus + .review-form-field-icon{
+        fill:#4D5AE5 ;
+     }
+
+    .review-form-field-icon{
+        fill: #2E2F42;
+        position: absolute;
+        top: 50%;
+        left: 16px;
+        transform:translateY(-50%) ;
+    }
+
+    .review-form-comment{
+     width: 100%;
+     height: 120px; 
+     font-size: 12px;
+     font-weight: 400;
+     line-height: 14px;
+     letter-spacing: 0.04em;
+     text-align: left;
+     color: #2E2F4266;
+ 
+     border: 1px solid #2E2F4266;
+     border-radius: 4px; 
+     padding-top: 8px;
+     padding-bottom: 98px;
+     padding-left: 16px;
+     resize: none;
+     transition: border-color 250ms ease-out;
+    }
+    
+    .review-form-comment:focus{
+        border-color:#4D5AE5 ;  
+        outline: transparent;
+    }
+
+    .review-form-comment::placeholder{
+      color:rgba(64,64,64,0.3) ;  
+    }
+
+    .review-form-checkbox-label{
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.04em;
+text-align: left;
+margin-right: 8px;
+color:linear-gradient(0deg, #8E8F99, #8E8F99);
+}
+
+.review-form-privacy-link{
+color:  #4D5AE5;
+
+}
+.review-form-checkbox{
+    margin-top: 16px;
+}
+    /*=========MODAL FORM==========*/

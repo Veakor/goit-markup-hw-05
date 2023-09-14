@@ -629,6 +629,7 @@ margin-bottom: 16px;
        padding-right: 24px; 
        padding-bottom: 24px; 
        padding-left: 24px;
+       padding-top: 72px;
     }
 
       .close-btn{
@@ -655,8 +656,7 @@ margin-bottom: 16px;
         }
 
         .close-btn-icon{
-            transform: translateY(-50%);
-            transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
         .close-btn:hover,
         .close-btn-icon:focus{

@@ -763,6 +763,7 @@ line-height: 16px;
 letter-spacing: 0.04em;
 text-align: left;
 margin-right: 8px;
+line-height: 1.17; 
 color: #8E8F99;
 }
 
@@ -775,7 +776,7 @@ color:  #4D5AE5;
 }
 
 .review-form-submit{
-
+    min-width: 169px;
     width: 105px;
     height: 24px;
     font-size: 16px;

@@ -768,6 +768,7 @@ margin-bottom: 16px;
     align-items: center; 
     justify-content: center;
     fill: transparent; 
+    margin-right: 8px;
 }
     .review-form-checkbox-label{
 font-size: 12px;

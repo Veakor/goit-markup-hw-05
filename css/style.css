@@ -712,6 +712,9 @@ margin-bottom: 16px;
      .review-form-input:focus + .review-form-field-icon{
         fill:#4D5AE5 ;
      }
+     .form-div{
+        margin-bottom: 16px;
+     }
 
     .review-form-field-icon{
         fill: #2E2F42;

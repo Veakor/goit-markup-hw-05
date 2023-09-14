@@ -563,7 +563,7 @@ margin-bottom: 16px;
         color: #ffffff; 
         }
       input::placeholder{
-        color #ffffff;
+        color: #ffffff;
       }
 
       .footer-button{
